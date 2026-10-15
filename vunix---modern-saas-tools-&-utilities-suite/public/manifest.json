@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "Vunix - Modern SaaS Tools Suite",
+  "short_name": "Vunix",
+  "description": "Ultra-clean modern SaaS productivity suite with 15 free and pro commercial tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F9FAFB",
+  "theme_color": "#451A03",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

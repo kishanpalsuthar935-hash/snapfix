@@ -1,0 +1,6 @@
+{
+  "name": "Vunix - Modern SaaS Tools & Utilities Suite",
+  "description": "Ultra-clean modern SaaS productivity suite with 15 free and pro commercial tools, inspired by Wix card design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
