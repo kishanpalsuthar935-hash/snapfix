@@ -61,8 +61,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const paypalContainerRef = useRef<HTMLDivElement>(null);
 
   // Environment variables (Client IDs only, zero private secret keys)
-  const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID?.trim() || '';
-  const MERCHANT_UPI = import.meta.env.VITE_MERCHANT_UPI_ID?.trim() || 'vunix@upi';
+  const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID?.trim() || 'BAALaJL41XKMxbqmcN9aIQGx1lOHLwwvISbSbOWwqG_hWPGcvaON933e6pNwZ6UZLIyiHVT3jk2ms7cc7M';
+  const MERCHANT_UPI = import.meta.env.VITE_MERCHANT_UPI_ID?.trim() || '7014189573-d2a3@ibl';
 
   const price = billingCycle === 'annual' ? 200 : 30;
 
